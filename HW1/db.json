@@ -1,0 +1,13 @@
+{
+  "categories": [
+    { "id": 1, "name": "Technology" },
+    { "id": 2, "name": "Health" },
+    { "id": 3, "name": "Lifestyle" }
+  ],
+  "posts": [
+    { "id": 1, "categoryId": 1, "title": "Latest in AI" },
+    { "id": 2, "categoryId": 1, "title": "The Rise of Quantum Computing" },
+    { "id": 3, "categoryId": 2, "title": "Tips for a Healthy Diet" },
+    { "id": 4, "categoryId": 3, "title": "Top 10 Travel Destinations" }
+  ]
+}
