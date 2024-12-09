@@ -1,23 +1,18 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
-import { categories } from '../../../data/data';
+export async function getServerSideProps({ params }) {
+  const res = await fetch(`http://localhost:3001/posts/${params.postId}`);
+  const post = await res.json();
 
-export default function PostPage() {
-  const router = useRouter();
-  const { categoryId, postId } = router.query;
+  return {
+    props: { post },
+  };
+}
 
-  const category = categories.find((cat) => cat.id === categoryId);
-  const post = category.posts.find((post) => post.id === postId);
 
-  if (!category || !post) {
-    return <p>Post not found</p>;
-  }
-
+export default function Post({ post }) {
   return (
     <div>
       <h1>{post.title}</h1>
       <p>{post.content}</p>
-      <Link href={`/category/${categoryId}`}>Back to Posts</Link>
     </div>
   );
 }
