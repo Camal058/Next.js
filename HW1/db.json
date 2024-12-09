@@ -5,9 +5,29 @@
     { "id": 3, "name": "Lifestyle" }
   ],
   "posts": [
-    { "id": 1, "categoryId": 1, "title": "Latest in AI" },
-    { "id": 2, "categoryId": 1, "title": "The Rise of Quantum Computing" },
-    { "id": 3, "categoryId": 2, "title": "Tips for a Healthy Diet" },
-    { "id": 4, "categoryId": 3, "title": "Top 10 Travel Destinations" }
+    { 
+      "id": 1, 
+      "categoryId": 1, 
+      "title": "Latest in AI", 
+      "content": "Artificial Intelligence is evolving rapidly, with new advancements in machine learning, natural language processing, and robotics changing industries worldwide." 
+    },
+    { 
+      "id": 2, 
+      "categoryId": 1, 
+      "title": "The Rise of Quantum Computing", 
+      "content": "Quantum computing promises unprecedented computational power, which could revolutionize fields like cryptography, medicine, and artificial intelligence." 
+    },
+    { 
+      "id": 3, 
+      "categoryId": 2, 
+      "title": "Tips for a Healthy Diet", 
+      "content": "A balanced diet with fruits, vegetables, whole grains, and lean proteins is essential for maintaining good health. Learn tips to enhance your daily nutrition." 
+    },
+    { 
+      "id": 4, 
+      "categoryId": 3, 
+      "title": "Minimalism in Everyday Life", 
+      "content": "Minimalism can bring clarity and focus to your life. Learn how to declutter your space and mind with simple steps." 
+    }
   ]
 }
