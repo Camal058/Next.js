@@ -49,7 +49,7 @@ export default function ProductsPage({ initialData }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/products`);
+  const res = await fetch(`http://localhost:3000`);
   const data = await res.json();
   return { props: { initialData: data } };
 }
