@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: rgb(28, 0, 28);
+}
+
+footer li,
+footer h4, 
+footer div {
+    color: #fff !important;
+    font-weight: lighter;
+}
