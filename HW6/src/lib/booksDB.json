@@ -1,0 +1,68 @@
+[
+    {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "category": "Fiction",
+    "author": "F. Scott Fitzgerald",
+    "date": "1925-04-10",
+    "price": 10.99
+  },
+  {
+    "id": "2",
+    "title": "1984",
+    "category": "Dystopian",
+    "author": "George Orwell",
+    "date": "1949-06-08",
+    "price": 8.99
+  },
+  {
+    "id": "3",
+    "title": "To Kill a Mockingbird",
+    "category": "Fiction",
+    "author": "Harper Lee",
+    "date": "1960-07-11",
+    "price": 12.99
+  },
+  {
+   "id": "4",
+    "title": "Sapiens: A Brief History of Humankind",
+    "category": "Non-fiction",
+    "author": "Yuval Noah Harari",
+    "date": "2011-01-01",
+    "price": 15.99
+  },
+  {
+    "id": "5",
+    "title": "Becoming",
+    "category": "Biography",
+    "author": "Michelle Obama",
+    "date": "2018-11-13",
+    "price": 18.99
+  },
+  {
+    "id": "6",
+    "title": "Atomic Habits",
+    "category": "Self-help",
+    "author": "James Clear",
+    "date": "2018-10-16",
+    "price": 11.99
+  },
+  {
+    "id": "7",
+    "title": "The Alchemist",
+    "category": "Fiction",
+    "author": "Paulo Coelho",
+    "date": "1988-05-01",
+    "price": 9.99
+  },
+  {
+    "id": "8",
+    "title": "Educated",
+    "category": "Memoir",
+    "author": "Tara Westover",
+    "date": "2018-02-20",
+    "price": 13.99
+  }
+]
+  
+  
